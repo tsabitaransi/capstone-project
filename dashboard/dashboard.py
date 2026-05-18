@@ -123,7 +123,7 @@ def insight(text):
 # ── LOAD & PREPARE DATA ───────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_csv("main_data.csv")
+    df = pd.read_csv("dashboard/main_data.csv")
     df["tanggal"] = pd.to_datetime(
         df["tanggal"],
         format="mixed",
