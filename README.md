@@ -4,7 +4,7 @@ Dashboard interaktif berbasis **Streamlit** untuk analisis pengeluaran pribadi, 
 
 ## 📌 Deskripsi Proyek
 
-FinanceTrack adalah dashboard analitik yang menjawab tiga pertanyaan SMART berbasis data transaksi keuangan individu:
+Berikut adalah dashboard analitik yang menjawab tiga pertanyaan SMART berbasis data transaksi keuangan individu:
 
 | # | Pertanyaan |
 |---|---|
@@ -15,8 +15,7 @@ FinanceTrack adalah dashboard analitik yang menjawab tiga pertanyaan SMART berba
 ## 🗂️ Struktur Folder
 
 ```
-finance-tracker-dashboard/
-│
+smart-financial-assistant-dashboard/
 ├── dashboard/
 │   ├── dashboard.py          
 │   └── main_data.csv          
@@ -43,7 +42,7 @@ finance-tracker-dashboard/
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/finance-tracker-dashboard.git
+git clone https://github.com/tsabitaransi/capstone-project.git
 cd finance-tracker-dashboard
 ```
 
@@ -74,7 +73,7 @@ pip install -r requirements.txt
 Pastikan file `main_data.csv` sudah ada di folder `dashboard/`:
 
 ```bash
-cp data/data_wrangling_userid.csv dashboard/main_data.csv
+cp dashboard/main_data.csv
 ```
 
 ### 5. Jalankan Dashboard
