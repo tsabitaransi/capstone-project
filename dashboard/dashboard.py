@@ -593,7 +593,7 @@ elif page == "📈  Tren Harian":
         f"Lonjakan terdeteksi pada <b>{int(spike_df.shape[0])} hari</b> "
         f"di mana pengeluaran melebihi threshold <b>{fmt_rp(threshold)}</b> "
         f"(mean + std). Hari-hari ini menunjukkan aktivitas finansial lebih tinggi "
-        f"dan dapat menjadi waktu strategis untuk program promosi."
+        f"sehingga perlu lebih waspada dan menyesuaikan anggaran ke depannya."
     )
     card_end()
 
